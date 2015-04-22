@@ -23055,12 +23055,12 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.CJSAds,
-	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
-	cr.plugins_.sliderbar,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
+	cr.plugins_.Sprite,
+	cr.plugins_.Spritefont2,
+	cr.plugins_.Touch,
+	cr.plugins_.sliderbar,
 	cr.behaviors.Platform,
 	cr.behaviors.Pin,
 	cr.behaviors.scrollto,
@@ -23090,8 +23090,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.acts.AddVar,
-	cr.plugins_.Sprite.prototype.acts.SetX,
-	cr.plugins_.Sprite.prototype.exps.X,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
@@ -23107,6 +23105,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
 	cr.system_object.prototype.cnds.ForEach,
 	cr.plugins_.Sprite.prototype.acts.SetPos,
+	cr.plugins_.Sprite.prototype.exps.X,
 	cr.plugins_.Sprite.prototype.exps.Width,
 	cr.plugins_.Sprite.prototype.exps.Y,
 	cr.plugins_.Sprite.prototype.exps.Height,
@@ -23123,6 +23122,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.Spritefont2.prototype.acts.SetText,
 	cr.behaviors.Platform.prototype.acts.SetEnabled,
-	cr.plugins_.Audio.prototype.acts.PlayByName
+	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
+	cr.plugins_.Audio.prototype.acts.PlayByName,
+	cr.system_object.prototype.exps.choose,
+	cr.behaviors.Platform.prototype.cnds.IsOnFloor
 ];};
 

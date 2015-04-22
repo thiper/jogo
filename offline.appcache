@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1429618502
+#1429660833
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -45,10 +45,18 @@ images/grade-sheet0.png
 images/grade2-sheet0.png
 images/base_grade-sheet0.png
 images/pontos_pontos.png
+images/grade3-sheet0.png
 media/01.m4a
 media/01.ogg
-media/espada_00.m4a
 media/espada_00.ogg
+media/espada_00.m4a
+media/espada_01.m4a
+media/espada_01.ogg
+media/espada_02.m4a
+media/passos.m4a
+media/passos.ogg
+media/ia.m4a
+media/ia.ogg
 icon-16.png
 icon-32.png
 icon-114.png
